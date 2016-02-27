@@ -7,9 +7,10 @@ Simulate 'background-size: cover' on `<video>` and `<img>` elements.
 BackgroundCover(element, container [, horizontalAlign, verticalAlign]);
 ```
 
-**element**: HTMLVideoElement, or HTMLImageElement, or other dom element (e.g. HTMLCanvasElement)
-**horizontalAlign**: Number from 0 to 1, where 0 means aligned to the left. Default value is 0.5 (centered);
-**verticalAlign**: - Number from 0 to 1, where 0 means aligned to the top. Default value is 0.5 (centered);
+* **element**:`HTMLVideoElement`, or`HTMLImageElement`, or other dom element (e.g. `HTMLCanvasElement`)
+* **horizontalAlign**: `Number` from 0 to 1, where 0 means aligned to the left. Default value is 0.5 (centered);
+* **verticalAlign**: - `Number` from 0 to 1, where 0 means aligned to the top. Default value is 0.5 (centered);
+
 
 ## Example
 ```javascript
@@ -23,8 +24,8 @@ video.addEventListener('loadedmetadata', function() {
   BackgroundCover(video, videoContainer);
 );
 ```
-
 Check out [tests](http://github.com/Jam3/background-cover/blob/master/tests) for more examples.
+
 
 ## Install
 ```sh
@@ -36,6 +37,8 @@ npm install background-cover --save
 npm run test-video
 npm run test-image
 ```
+NOTE: Tests require [beefy](http://didact.us/beefy/) to be installed globally 
+
  
 ## License
 MIT, see [LICENSE.md](http://github.com/Jam3/background-cover/blob/master/LICENSE.md) for details.
