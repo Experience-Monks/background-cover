@@ -1,6 +1,6 @@
 # background-cover
 
-Simulate 'background-size: cover' on `'<video>'` and `'<img>'` elements.
+Simulate 'background-size: cover' on `<video>` and `<img>` elements.
 
 ## Syntax
 ```javascript
