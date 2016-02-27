@@ -41,4 +41,4 @@ NOTE: Tests require [beefy](http://didact.us/beefy/) to be installed globally
 
  
 ## License
-MIT, see [LICENSE.md](http://github.com/Jam3/background-cover/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/background-cover/blob/master/LICENSE) for details.
