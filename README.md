@@ -1,13 +1,13 @@
 # background-cover
 
-Simulate 'background-size: cover' on `<video>` and `<img>` elements.
+Simulate 'background-size: cover' on HTMLVideoElement and HTMLImageElement.
 
 ## Syntax
 ```javascript
 BackgroundCover(element, container [, horizontalAlign, verticalAlign]);
 ```
 
-* **element**: `HTMLVideoElement`, or`HTMLImageElement`, or other dom element (e.g. `HTMLCanvasElement`)
+* **element**: `HTMLVideoElement`, or `HTMLImageElement`, or other dom element (e.g. `HTMLCanvasElement`)
 * **horizontalAlign**: `Number` from 0 to 1, where 0 means aligned to the left. Default value is 0.5 (centered);
 * **verticalAlign**: `Number` from 0 to 1, where 0 means aligned to the top. Default value is 0.5 (centered);
 
