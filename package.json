@@ -1,0 +1,34 @@
+{
+  "name": "background-cover",
+  "version": "0.0.1",
+  "description": "Simulate 'background-size: cover' on <video> and <img> elements.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Vadim Namniak",
+    "email": "vadim@jam3.com",
+    "url": "https://github.com/namniak"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-image": "beefy ./tests/image.js --live --open",
+    "test-video": "beefy ./tests/video.js --live --open"
+  },
+  "keywords": [
+    "video",
+    "image",
+    "background-video",
+    "background-image",
+    "background-cover"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git:github.com/Jam3/background-cover.git"
+  },
+  "homepage": "https://github.com/Jam3/background-cover",
+  "bugs": {
+    "url": "https://github.com/Jam3/background-cover/issues"
+  }
+}
