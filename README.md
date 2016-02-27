@@ -1,6 +1,6 @@
 # background-cover
 
-Simulate 'background-size: cover' on `<video>` and `<img>` elements.
+Simulate 'background-size: cover' on `'<video>'` and `'<img>'` elements.
 
 ## Syntax
 ```javascript
@@ -37,7 +37,7 @@ npm install background-cover --save
 npm run test-video
 npm run test-image
 ```
-NOTE: Tests require [beefy](http://didact.us/beefy/) to be installed globally 
+NOTE: Tests require [beefy](http://didact.us/beefy/) to be installed globally.
 
  
 ## License
