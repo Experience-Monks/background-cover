@@ -1,6 +1,6 @@
 {
   "name": "background-cover",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Simulate 'background-size: cover' on HTMLVideoElement and HTMLImageElement.",
   "main": "index.js",
   "license": "MIT",

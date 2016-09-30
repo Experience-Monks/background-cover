@@ -40,6 +40,13 @@
     el.style.height = elHeight + 'px';
     el.style.top = elPosTop + 'px';
     el.style.left = elPosLeft + 'px';
+
+    return {
+      elWidth: elWidth,
+      elHeight: elHeight,
+      elPosTop: elPosTop,
+      elPosLeft: elPosLeft,
+    }
   }
 
   if ('module' in root && 'exports' in module) {
