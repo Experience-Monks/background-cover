@@ -1,4 +1,5 @@
-var BackgroundCover = require('../index.js').BackgroundCover;
+var BackgroundCover = require('../index.js');
+debugger
 
 var body = document.getElementsByTagName('body')[0];
 body.style.position = 'absolute';

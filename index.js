@@ -1,7 +1,4 @@
-(function (root) {
-
-  function BackgroundCover(el, container, hAlign, vAlign) {
-
+module.exports = function(el, container, hAlign, vAlign) {
     hAlign = (hAlign !== undefined) ? hAlign : 0.5;
     vAlign = (vAlign !== undefined) ? vAlign : 0.5;
 
@@ -48,11 +45,3 @@
       elPosLeft: elPosLeft,
     }
   }
-
-  if ('module' in root && 'exports' in module) {
-    module.exports = BackgroundCover;
-  } else {
-    root.BackgroundCover = BackgroundCover;
-  }
-
-})(this);

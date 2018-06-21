@@ -15,7 +15,7 @@ BackgroundCover(element, container [, horizontalAlign, verticalAlign]);
 ## Example
 ```javascript
 
-var BackgroundCover = require('background-cover').BackgroundCover;
+var BackgroundCover = require('background-cover');
 
 var videoContainer = document.getElementById('video-container');
 var video = document.getElementById('video');
@@ -37,7 +37,6 @@ npm install background-cover --save
 npm run test-video
 npm run test-image
 ```
-NOTE: Tests require [beefy](http://didact.us/beefy/) to be installed globally.
 
  
 ## License

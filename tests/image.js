@@ -1,4 +1,4 @@
-var BackgroundCover = require('../index.js').BackgroundCover;
+var BackgroundCover = require('../index.js');
 
 var body = document.getElementsByTagName('body')[0];
 body.style.position = 'absolute';
@@ -13,7 +13,7 @@ image.style.visibility = 'hidden';
 
 body.appendChild(image);
 
-var setCover = function () {
+var setCover = function() {
   BackgroundCover(image, body);
   image.style.visibility = 'visible';
 };

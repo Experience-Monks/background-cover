@@ -1,6 +1,6 @@
 {
   "name": "background-cover",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Simulate 'background-size: cover' on HTMLVideoElement and HTMLImageElement.",
   "main": "index.js",
   "license": "MIT",
@@ -10,11 +10,12 @@
     "url": "https://github.com/namniak"
   },
   "dependencies": {
+    "budo": "^11.3.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test-image": "beefy ./tests/image.js --live --open",
-    "test-video": "beefy ./tests/video.js --live --open"
+    "test-image": "budo tests/image.js --live  --open",
+    "test-video": "budo tests/video.js --live  --open"
   },
   "keywords": [
     "video",
